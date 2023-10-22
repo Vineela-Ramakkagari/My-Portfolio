@@ -21,6 +21,10 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: 0.3s;
+    background-image: linear-gradient(to top right,rgb(135, 12, 230),rgb(253, 69, 69));
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 .navbar {
@@ -222,4 +226,3 @@ p {
         box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
     }
 }
-
