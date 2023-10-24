@@ -274,7 +274,6 @@ button {
         position: fixed;
         top: 50px;
         right: 30px;
-        transition: 0.3s;
     }
     
     .navbar input:checked ~ .hamburger:after {
@@ -283,7 +282,6 @@ button {
         position: fixed;
         top: 50px;
         right: 30px;
-        transition: 0.3s;
     }
     .toggle-menu {
         position: fixed;
