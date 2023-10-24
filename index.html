@@ -5,53 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vineela_WebPage</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header">
+    <header id="header">
+        <div><img src="./Vinni pic2.jpg" alt="Profile pic"></div>
         <div class="profileLogo">
-            <a href="./myProfile.html"><img src="./Vinni pic2.jpg" alt="Profile Picture" id="profilePic" width="60px" height="60px" title="View Personal Details"></a>
+            <h1>Vineela's Portfolio</h1> 
+                <p>Frontend Web Developer|Database Manager</p>
+                <p>@Web Minds Committee</p>
         </div>
         <div class="navbar">
             <input type="checkbox" class="toggle-menu">
             <div class="hamburger"></div>
             <ul class="menu">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./mySkills.html">Skills</a></li>
-                <li><a href="./achievements.html">Achievements</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </header>
-    <section id="main_content">
-        <div id="intro">
-            <h1>Hello...</h1>
-            <h2>I'm Vineela Ramakkagari</h2>
-            <h5>Frontend Web developer and Database Manager</h5>
-            <h5>(WEB MINDS COMMITTEE)</h5>
+        <section id="about">
+            <div class="container">
+                <h3>About Myself:</h3><br>
+            <p>I am a passionate and skilled Frontend Web Developer and Database Manager. With a solid foundation in Electrical and Electronics Engineering (B.Tech) and a strong inclination towards web development, I am self-driven by a desire to create seamless, visually appealing, and efficient websites. My proficiency extends to database management, allowing me to ensure data is organized and accessible for optimal user experiences.</p>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2><br>
+                <div class="education-entry">
+                    <h3>B.Tech (EEE) - Madanapalle Institute of Technology and Science</h3>
+                    <p>Year of Passing: 2025</p>
+                    <p>Board/University: JNTU, Anantapur(A.P)</p>
+                    <p>Percentage/Grade: 9.43 CGPA (Till 2.2)</p>
+                </div>
+                <div class="education-entry">
+                    <h3>Intermediate/Class XII - Sri Siddhartha Junior College, Madanapalle</h3>
+                    <p>Year of Passing: 2021</p>
+                    <p>Board/University: Board of Intermediate Education, (A.P.)</p>
+                    <p>Percentage/Grade: 97.1%</p>
+                </div>
+                <div class="education-entry">
+                    <h3>Class X/S.S.C - Sri Chaitanya Children’s Academy, Madanapalle</h3>
+                    <p>Year of Passing: 2019</p>
+                    <p>Board/University: Board of Secondary Education (A.P.)</p>
+                    <p>Percentage/Grade: 10 GPA</p>
+                </div>
+            </div>
+        </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>
+                    <i class="fa fa-code"></i> Python
+                </li>
+                <li>
+                    <i class="fa fa-code"></i> C
+                </li>
+                <li>
+                    <i class="fa fa-html5"></i><i class="fa fa-css3" aria-hidden="true"></i> HTML and CSS
+                </li>
+                <li>
+                    <i class="fa fa-database"></i> SQL
+                </li>
+                <li>
+                    <i class="fa fa-database"></i> PostgreSQL
+                </li>
+                <li>
+                    <i class="fa fa-bar-chart"></i> Tableau
+                </li>
+            </ul>
         </div>
-        <div class="mySelf">
-            <h3>About Myself:</h3><br>
-            <p>I am a passionate and skilled Frontend Web Developer and Database Manager. With a solid foundation in Electrical and Electronics Engineering (B.Tech) and a strong inclination towards web development, I am driven by a desire to create seamless, visually appealing, and efficient websites. My proficiency extends to database management, allowing me to ensure data is organized and accessible for optimal user experiences.</p>
-        </div><br>
-        <div class="projects">
-            <h3>Project Work / Training:</h3><br>
-
-            <b>*</b> Completed a Frontend Web Development internship at Digital Bhem, gaining valuable experience in creating user-friendly web interfaces. <br>
-            <b>*</b> Underwent a Deep Learning Boot Camp in collaboration with Devtown, enhancing my understanding of cutting-edge technologies. <br>
-            <b>*</b> Actively participated in hands-on workshops and virtual internships, showcasing my skills in web development and data visualization. <br>
-            <b>*</b> Successfully executed projects, including face recognition, object tracking, and real-world object detection using Python.
-        </div><br>
-        <div class="activities">
-            <h3>Academic Achievements & Co-Curricular Activities:</h3><br>
-            <b>*</b>Engaged as a Frontend Web Developer and Database Manager at the Web Minds Committee. <br>
-            <b>*</b>Actively participated in technical events, such as poster presentations and HTML & CSS quizzes. <br>
-            <b>*</b>A proud member of the IEEE Student Branch at Madanapalle Institute of Technology and Science. <img src="./ieee_logo.png" alt="IEEE Logo" width="40px" height="40px" style="border-radius: 50%;"><br>
-            <b>*</b>A versatile individual with interests in dance, sports, and public speaking. <br>
-            <b>*</b>Achieved the Best English Speaker award during schooling. <br>
-            <b>*</b>Received multiple certificates for excelling in various competitions, JAM(Just a Minute), dance, and more.
-        </div><br>
-        <a href="https://github.com/Vineela-Ramakkagari" class="more">My GitHub</a>
-        <a href="https://www.linkedin.com/in/vineela-ramakkagari-976546278" class="more">My LinkedIn</a>
     </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects & Training</h2>
+            <ul class="project-list">
+                <li>Developed web projects using HTML and CSS, available on my GitHub repositories.</li>
+                <li>Implemented projects like face recognition, tracking object by its color, and detecting real-world objects using Python.</li>
+                <li>Completed a 1-month FRONTEND WEB DEVELOPMENT internship at Digital Bhem.</li>
+                <li>Completed the Data Visualization virtual internship at TATA Insights and Quants in association with the Forage.</li>
+                <li>Completed SQL and PostgreSQL database management courses in SimpliLearn website</li>
+                <li>Underwent 7 days of Boot Camp on DEEP LEARNING in collaboration with Devtown.</li>
+                <li>Participated in Hands-on Workshop- RETROFITTING CONVENTIONAL BIKE into EV.</li>
+                <li>Our project on website bulding for "Self Identifying Mental Health Status and Guidance" got shortlisted in Internal Hackathon and we are working on it.</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="achievements">
+        <div class ="container">
+            <h2>Achievements</h2>
+            <ul class="achievement-list">
+                <li>Frontend Web Developer and Database Manager at Web Minds Committee, MITS</li>
+                <li>Member of IEEE Student Branch at MITS</li>
+                <li>Successfully organized a workshop on Network communication at MITS</li>
+                <li>Achieved 2nd place in HTML & CSS quiz conducted by Web Club at MITS</li>
+                <li>Participated in Poster Presentation and Technical Quiz on the occasion of TERRA-2K23 at MITS</li>
+                <li>Runners in the Badminton Competition organized by the Sports Club</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2><br>
+            <p>Email: vineelaramakkagari@gmail.com, rvineela@ieee.org</p>
+            <a href="https://github.com/Vineela-Ramakkagari">GitHub&nbsp;<i class="fa fa-github-square" aria-hidden="true" style="font-size: 30px;"></i></a>
+            <a href="https://www.linkedin.com/in/vineela-ramakkagari-976546278">LinkedIn&nbsp;<i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 30px;"></i></a>
+        </div>
+    </section>
+    <button onclick="scrollToTop()" title="Scroll Up"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></button>
+        <footer>
+            <div class="container">
+                <p>&copy; 2023 Vineela Ramakkagari</p>
+            </div>
+        </footer>
     <img src="./committee_logo.png" alt="Web Minds Committee Logo" id="logo">
+    <script src="script.js"></script>
+    <script>
+        function scrollToTop() {
+            window.scrollTo(0,0);
+        }
+    </script>
 </body>
 </html>
